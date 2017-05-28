@@ -1,0 +1,28 @@
+{
+    "name": "fiisoft/remote-content",
+    "type": "library",
+    "description": "The abstraction for a remote content able to be fetch by an abstract reader from some url.",
+    "keywords": ["remote","content"],
+    "homepage": "https://github.com/fiiSoft/fiisoft-remote-content",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "FiiSoft",
+            "email": "fiisoft.production@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FiiSoft\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "roave/security-advisories": "dev-master"
+    },
+    "suggest": {
+        "guzzlehttp/guzzle": "Allows to use RemoteContent as an adapter of GuzzleHttp\\Client."
+    }
+}
