@@ -1,10 +1,10 @@
 <?php
 
-namespace FiiSoft\Tools\RemoteContent\Reader\Adapter;
+namespace FiiSoft\Tools\RemoteContent\Adapter;
 
-use GuzzleHttp\Message\ResponseInterface;
 use FiiSoft\Tools\RemoteContent\ContentNotAvailableException;
 use FiiSoft\Tools\RemoteContent\RemoteContent;
+use GuzzleHttp\Message\ResponseInterface;
 
 final class GuzzleRemoteContent implements RemoteContent
 {
