@@ -5,7 +5,7 @@
     "keywords": ["remote","content"],
     "homepage": "https://github.com/fiiSoft/fiisoft-remote-content",
     "license": "MIT",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "authors": [
         {
             "name": "FiiSoft",
@@ -19,8 +19,7 @@
         }
     },
     "require": {
-        "php": ">=5.6.0",
-        "roave/security-advisories": "dev-master"
+        "php": ">=5.6.0"
     },
     "suggest": {
         "guzzlehttp/guzzle": "Allows to use RemoteContent as an adapter of GuzzleHttp\\Client."
